@@ -7,3 +7,12 @@ https://public.tableau.com/app/profile/ritesh.sil#!/?newProfile=&activeTab=0
 
 
 
+1. Dynamic change of sales based on the filter selection : 
+https://public.tableau.com/app/profile/ritesh.sil/viz/Test-Report_16445217571370/ExecutiveSummary
+
+
+
+
+
+
+
