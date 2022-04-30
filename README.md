@@ -18,7 +18,9 @@ https://public.tableau.com/app/profile/ritesh.sil/viz/Test-Report_16445217571370
    
 # Use Case 1 : Distribution of Sales accross regions : Histogram /Bins :
    To check the distribution across the region will help us to understand the market size for each region. It will help us to do a comparative study of different markets across the region along with the profit%, so that business understands in which region we should focus to promote the products and spend for more branding and advertising to increase the revenue. 
-
+         Key learning : 
+            1. How to plot histogram in Tableau.
+            2. How to create bins in Tableau
 
 
 
