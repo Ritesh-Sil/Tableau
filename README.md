@@ -29,6 +29,37 @@ URL :  https://public.tableau.com/app/profile/ritesh.sil/viz/SalesvsProfit-Distr
             2. How to create bins in Tableau
 
 
+**Rolling 12 month logic**
+
+- *Step1* - Create the **Concatenate** Field as below : 
+
+`DATEPARSE("MM.YYYY",STR([Month-Quarter])+"."+str([Year]))`
+
+
+- *Step2* - Create the **Rolling 12 month** Field as below : 
+
+`IF DATETRUNC('month',DATEADD("month",12,[Period]))>=[Concatenate] 
+and DATETRUNC("month", [Period])<=[Concatenate]
+then [Period]
+END`
+
+This calculation will help to change the rolling 12 month range dynamically.
+
+
+**Dynamic QTD based on month selection**
+
+- *Step1* - Create the **Month to Qtr** Field as below :
+
+`IF [Month-Quarter] in (1,2,3) THEN 1
+ELSEIF [Month-Quarter] in (4,5,6) THEN 2
+ELSEIF [Month-Quarter] in (7,8,9) THEN 3
+ELSEIF [Month-Quarter] in (10,11,12) THEN 4
+END`
+
+- *Step2* - Create the **Sales to Date QTD** Field as below :
+
+`IF int([qtr])=[Month to Qtr] AND  [year] = [Year] AND int([Month])<=[Month-Quarter] THEN [<Measure field>] END`
+
 
 
 
