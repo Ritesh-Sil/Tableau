@@ -62,4 +62,46 @@ END`
 
 
 
+=========================Tableau interview questions ==========================================
+1. Could you please tell me what are key differences b/w continuous and discrete fields
 
+2. Dual Axis chart : - 
+	How do you create a donut chart in Tableau.
+	
+3. Grouping  - 
+   Lets Say, you are dealing with restaurant foods data.
+   Several exhaustive list of food items and corresponding price list.
+   Now you want to categorize the sales as per cuisines, 
+   
+   You want to categorize the sales as per cuisine.  
+   
+
+   
+4. When do we use bullet chart in Tableau?
+
+5. I want to create a calculation which will give me the number of months between
+ starting of the year and today
+
+6. Lets say you have a time series data for last 3 years of sales.
+	- How will you calculate Year to Date sales.
+	- Rolling 6 months of sales.
+	- Create a drop down to select a chart based on rolling 3 months,
+		rolling 6 months, rolling 12 months 
+	- What do you mean by year over year growth
+
+
+7. Suppose you have 3 markets , 
+in each of the market you have multiple products and 
+then you have sales corresponding to each product.
+Now a market share is given 
+=  sales for a particular product / the entire sales of the corresponding market	
+		
+8. Suppose you have a KPI placed inside a dashboard. 
+You want add simple navigation as "Show Customer level details".
+When you click on it it expands and when you hide 
+
+
+9. Suppose you have created 3 dashboards in a report, 
+you need to add filter drop downs which will apply all rest of the dashboards
+
+10. 
