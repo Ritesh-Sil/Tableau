@@ -97,3 +97,22 @@ There are 6 data types in the tableau.
 #### 19. What is the Tableau version you are using currently? What are new features in this version compared to previous versions?
 
 
+#### 20. How do you integrate the data from different sources into Tableau? e.g - Flat files/ SQL databases/ Datalakes etc.
+
+- Use Data Belnding.
+
+#### 21. Have you worked in integarting any APIs in Tableau?
+- Say about python integration
+- Any custom integration
+- Embedded workbooks
+
+#### 22. What are the advantages of the API integration of the Tableau dashboard?
+
+#### 23. Are you aware of Tableau bridge?
+
+
+#### 24. What is the first step to integrate the Tableau API? What do we need to install in  first step?
+
+
+
+
