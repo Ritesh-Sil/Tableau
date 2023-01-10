@@ -42,4 +42,3 @@ We will keep the above calculation as a dimension.
 - Put the above calculation in column shelf
 - CNTD(Customer_name) in row shelf
 - Put the prior fixed calculation in color.
-
