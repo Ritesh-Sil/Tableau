@@ -42,3 +42,38 @@ We will keep the above calculation as a dimension.
 - Put the above calculation in column shelf
 - CNTD(Customer_name) in row shelf
 - Put the prior fixed calculation in color.
+
+
+### Cohort Analysis - User retention.
+
+- This is a case of cohort analysis with many members.
+- The dataset to bes used : Logs.csv
+- Purpose is to understand : Lifetime of a digital service.
+
+User retention analysis : New Subscribers vs Lapsed
+
+- Here only one login per period to be considered as we are only concerned about retention overtime than any user activity.
+
+- Create calculated field:
+```
+{FIXED USER_ID: MIN(SIGN_IN)}
+```
+
+- Put the above calculation in row shelf.
+- Put MY(Date) in column.
+- Create calculated field : User Cohort
+```
+{FIXED USER_ID: MIN(DATE)}
+```
+- Put the calculation in colour mark
+
+
+### LOD Calculations used as a base for sort for other fields.
+
+- Put period in columns
+- Put MY(Date) in rows
+- Put Sign In measure in text.
+- Sort the period field by the User Cohort - LOD calculated field.
+
+
+
