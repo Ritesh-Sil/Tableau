@@ -75,5 +75,27 @@ User retention analysis : New Subscribers vs Lapsed
 - Put Sign In measure in text.
 - Sort the period field by the User Cohort - LOD calculated field.
 
+### The active customer with gap in period
+
+We want to find number of months between first and second purchase.
+
+1. Find the first order date by customer.
+2. Find the second order date by customer.
+    - Extract dates from order date those are later than the first order date.
+    ```
+    IF ORDER_DATE > FIRST_ORDER_DATE THEN ORDER_DATE END
+    ```
+    - Get the first date of the extract.
+
+
+3. Get the difference between two above calculations using DATEDIFF function.
+4. Put the gaps in column shelf.
+5. Put the periods in row shelf.
+6. Put `COUNTD(CUSTOMER)` in color.
+7. Change the shape to square.
+
+
+
+
 
 
